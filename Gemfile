@@ -6,3 +6,4 @@ gem "minitest"
 gem "minitest-reporters"
 gem "rspec"
 gem "rubocop", require: false
+gem "rubocop-performance", require: false

@@ -101,11 +101,6 @@ Naming/PredicateName:
 Naming/UncommunicativeMethodParamName:
   Enabled: false
 
-# [codesmell]
-# I don't really get the point of this cop.
-Performance/RedundantMerge:
-  Enabled: false
-
 # This cop returns false positive violations (as of rubocop 0.57.0)
 # https://github.com/rubocop-hq/rubocop/issues/5953
 Style/AccessModifierDeclarations:
@@ -331,15 +326,15 @@ Layout/EmptyLineBetweenDefs:
   Enabled: false
 
 # Multi-line differs from standard indentation, they are indented twice.
-Layout/FirstParameterIndentation:
+Layout/IndentFirstArgument:
   IndentationWidth: 4
 
 # Array indentation should be consistent with method/variable definition.
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
 # Hash indentation should be consistent with method/variable definition.
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
 # Multi-line differs from standard indentation, they are indented twice.
